@@ -1,0 +1,14 @@
+path: C:\Users\Usuario\VSCodeProjects\yolo_ultralytics_segmentation_training\
+train:
+- datasets\AG 232173 Dec11_Boston_IVF_1112211148\images
+val:
+- datasets\AM 191252 Oct 6_Boston_IVF_0610211233\images
+test:
+- datasets\DJ 218900 Sep 17_Denny_7N_20xN_1709211421\images
+names:
+  0: sperm
+  1: needle
+  2: defect
+  3: other
+  4: egg
+  5: pipette

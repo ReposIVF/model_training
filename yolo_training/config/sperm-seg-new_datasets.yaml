@@ -1,0 +1,26 @@
+path: C:\Users\Usuario\VSCodeProjects\yolo_ultralytics_segmentation_training\
+train:
+- datasets\AG 232173 Dec11_Boston_IVF_1112211148\images
+- datasets\DL229922 June 4_Denny_10N_20xN_0406211423\images
+- datasets\DO 226642  OCT 7_Boston_IVF_0710211230\images
+- datasets\GCD 233885 Jan11_Boston_IVF_1101221256\images
+- datasets\HCR 228316 DEC17_Boston_IVF_1712211303\images
+- datasets\old_dataset_train\images
+val:
+- datasets\AM 191252 Oct 6_Boston_IVF_0610211233\images
+- datasets\aria_batch1\images
+- datasets\aria_batch2\images
+- datasets\AS 211121 Jan 31_Boston_IVF_3101221249\images
+- datasets\old_dataset_val\images
+test:
+- datasets\DJ 218900 Sep 17_Denny_7N_20xN_1709211421\images
+- datasets\EG 145858 Apr 27_Denny_7N_20xN_2704211359\images
+- datasets\FC 216186  DEC 08_Boston_IVF_0812211232\images
+- datasets\old_dataset_test\images
+names:
+  0: sperm
+  1: needle
+  2: defect
+  3: other
+  4: egg
+  5: pipette

@@ -1,0 +1,15 @@
+path: C:\Users\Usuario\VSCodeProjects\yolo_ultralytics_segmentation_training\
+train:
+- datasets_tail\images
+val:
+- datasets_tail\images
+test:
+- datasets_tail\images
+names:
+  0: sperm
+  1: needle
+  2: defect
+  3: other
+  4: egg
+  5: pipette
+  6: ntail
