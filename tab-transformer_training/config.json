@@ -1,0 +1,18 @@
+{
+    "detection_model_path": "models/erica_detection_model_yolov8.pt",
+    "segmentation_model_path": "models/erica_segmentation_model_yolov8m-seg.pt",
+    "csv_path": "data/embryos_with_pgt.csv",
+    "csv_with_age_path": "data/image_metadata_30m_118-128-fixed.csv",
+    "load_csv_with_age": true,
+    "input_images_to_crop_path": "data/timelapse_frames_118h-128h_30min_second_run",
+    "output_detection_dir": "data/crops/",
+    "device": "cuda",
+    "conf_thresh": 0.5,
+    "segmentation_label": "euploid",
+    "output_segmentation_dir": "data/segmentation",
+    "output_csv_path": "data/",
+    "tab_transformer_model_path": "models/tab_transformer_model.pth",
+    "training_mode": false,
+    "scaler_path": "data/scaler_top_features.pkl"
+  }
+  
