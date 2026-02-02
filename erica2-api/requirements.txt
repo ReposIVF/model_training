@@ -1,0 +1,30 @@
+# ERICA API Requirements
+
+# Core Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.0.0
+
+# AWS / IO
+boto3>=1.28.0
+
+# ML/AI (versions matching production ERICA2 env)
+torch==2.4.1
+torchvision==0.19.1
+ultralytics==8.3.9
+tab-transformer-pytorch==0.3.0
+numpy==2.0.2
+pandas==2.2.3
+Pillow>=10.0.0
+opencv-python>=4.8.0
+scikit-image>=0.22.0
+scipy>=1.10.0
+
+# Utilities
+psutil>=5.9.0
+
+# Development (optional)
+# pytest>=7.4.0
+# httpx>=0.24.0
